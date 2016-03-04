@@ -56,21 +56,19 @@ class MySet
 
 end
 
+# Create Birds
 birds = MySet.new
-p birds
 birds.insert("gouldian finch")
-p birds
 birds.insert("blue jay")
-p birds
 birds.insert("sea gull")
+birds.insert("big bird")
 
+#Create Sea Birds
 sea_birds = MySet.new
-p sea_birds
 sea_birds.insert("pelican")
-p sea_birds
 sea_birds.insert("sea gull")
-p sea_birds
 sea_birds.insert("piping plover")
+sea_birds.insert("minty manatee")
 
 #Print Out Sets here::
 all_birds = birds.union(sea_birds)
